@@ -5,15 +5,7 @@ using System.Collections.Generic;
 namespace gun_master_9000 {
     [TestFixture]
     class UnitTests{
-        [Test, Description("Character without can't shoot")]
-        public void NewGunTest(){
-            Character john = new Character("John");
-            Assert.Throws<System.InvalidOperationException>(
-                () => {
-                    john.Shoot(null);
-                }
-            );
-        }
+
         [Test, Description("Character without Gun can't shoot")]
         public void CharacterWithoutGunTest() {
             Character john = new Character("John");
