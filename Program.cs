@@ -2,11 +2,11 @@
 
 namespace gun_master_9000
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
-    }
+//     class Program
+//     {
+//         static void Main(string[] args)
+//         {
+//             Character john = new Character("John");
+//         }
+//     }
 }
