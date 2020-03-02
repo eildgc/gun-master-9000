@@ -23,6 +23,7 @@ namespace gun_master_9000{
             } else {
                 throw new System.InvalidOperationException("Trying to shoot a gun without bullets");
             }
+            //this is ely's code
         }
         virtual public void Reload() {
             this.rounds = this.capacity;

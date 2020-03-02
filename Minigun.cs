@@ -7,7 +7,7 @@ namespace gun_master_9000 {
             this.rounds = capacity;
 
         }
-
+        //this is ely's code
         override public void Reload(){
             throw new System.InvalidOperationException("Minigun can't be reloaded");
 
